@@ -1,14 +1,15 @@
 # tstamp
 
-### python packages:
+### python packages needed:
 
+pdf2image, opencv, pil, poppler, numpy, pandas, pytesseract
+
+for pytesseract use:
 >conda install -c jiayi_anaconda pytesseract
->pip install pdf2image
->conda install opencv
->conda install poppler
-
+ 
 ### Manually compile tesseract: 
 https://github.com/tesseract-ocr/tesseract/wiki/Compiling
+
 (Note: pytesseract is just a wrapper executing tesseract binary!)
 
 ### Set tessdata environment variable, eg.:
